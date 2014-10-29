@@ -33,7 +33,7 @@ public class Login  extends AsyncTask<String,Void,String>{
          try{
             String username = (String)arg0[0];
             String password = (String)arg0[1];
-            String link="";//put the server URL here
+            String link="http://placement.msrit.edu/android.php";
             String data  = URLEncoder.encode("usn", "UTF-8") 
             + "=" + URLEncoder.encode(username, "UTF-8");
             data += "&" + URLEncoder.encode("password", "UTF-8") 
